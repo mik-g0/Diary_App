@@ -1,0 +1,11 @@
+.root {
+    -fx-background-color: lavender; /* фиолетовый */
+}
+
+.text-area {
+    -fx-control-inner-background: lavenderblush; /* пурпурный для TextArea */
+}
+
+.button {
+    -fx-base: violet; /* пурпурный для кнопок */
+}
