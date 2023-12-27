@@ -6,7 +6,7 @@
 
 Для запуска приложения необходим JDK 17. Необходимо скачать Diary.jar и библиотеку openfx-21.0.1.
 Для запуска из cmd необходимо ввести команду:
-java --module-path %путь до папки Diary_App%\Diary_App\openjfx-21.0.1_windows-x64_bin-sdk\javafx-sdk-21.0.1\lib --add-modules javafx.controls,javafx.fxml -jar %путь до папки Diary_App%\Diary_App\Diary.jar
+java --module-path %путь до папки openjfx%\openjfx-21.0.1_windows-x64_bin-sdk\javafx-sdk-21.0.1\lib --add-modules javafx.controls,javafx.fxml -jar %путь до .jar файла%\Diary.jar
 ## Соблюдение принципов SOLID
 1.	Принцип единственной обязанности (Single Responsibility Principle, SRP):
 User класс: Этот класс управляет пользователями и их записями, что может соответствовать SRP. Он отвечает за регистрацию, вход в систему и операции с записями в ежедневнике.
